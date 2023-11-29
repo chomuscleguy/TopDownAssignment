@@ -26,14 +26,14 @@ public class PlayerInputController : CharacterController
         Vector2 worldPos = _camera.ScreenToWorldPoint(newAim);
         newAim = (worldPos - (Vector2)transform.position).normalized;
 
-        if (newAim.magnitude >= 0.9f)
+        if (newAim.magnitude >= 0f)
         {
             CallLookEvent(newAim);
         }
     }
     public void OnFire(InputValue value)
     {
-        Debug.Log("Fire" + value.ToString());
+        //Debug.Log("Fire" + value.ToString());
     }
     
 }

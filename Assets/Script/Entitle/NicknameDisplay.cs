@@ -11,10 +11,4 @@ public class NicknameDisplay : MonoBehaviour
         string playerName = PlayerPrefs.GetString("PlayerName");
         playerNameText.text =  playerName;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
