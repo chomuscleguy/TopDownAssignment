@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharaterController : MonoBehaviour
+public class CharacterController : MonoBehaviour
 {
     public event Action<Vector2> OnmoveEvent;
     public event Action<Vector2> OnLookEvent;
